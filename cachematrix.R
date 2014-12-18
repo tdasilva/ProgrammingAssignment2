@@ -13,7 +13,7 @@ makeCacheMatrix <- function(x = matrix()) {
     inverse <<- NULL
   }
   get <- function() x
-  setinverse <- function(new_inverse) inverse <<- new_invers
+  setinverse <- function(new_inverse) inverse <<- new_inverse
   getinverse <- function() inverse
   
   # Return the external functions.
